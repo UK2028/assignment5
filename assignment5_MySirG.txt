@@ -1,0 +1,185 @@
+NAME-UDIT KHANDELWAL			ASSIGNMENT-5
+
+
+1. Write a program to print MySirG N times on the screen.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i=1,n;
+    printf("enter how many times you want print:");
+    scanf("%d",&n);
+    while(i<=n){
+            printf("MySirG\n");
+            i+=1;
+    }
+    getch();
+}
+
+2. Write a program to print the first N natural numbers.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i=1,n;
+    printf("print how many first natural numbers you want to print:");
+    scanf("%d",&n);
+    while(i<=n){
+        printf("%d\n",i);
+        i+=1;
+    }
+    getch();
+}
+
+3. Write a program to print the first N natural numbers in reverse order
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i,n;
+    printf("enter how many first natural number you want to print in reverse order:");
+    scanf("%d",&n);
+    for(i=n;i>0;i--){
+        printf("%d\n",i);
+    }
+    getch();
+}
+
+4. Write a program to print the first N odd natural numbers
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i=1,n;
+    printf("enter how many odd natural numbers you want to print:");
+    scanf("%d",&n);
+    while(i<=n){
+        if(i%2!=0){
+            printf("%d\n",i);
+        }
+        i+=1;
+    }
+    getch();
+}
+
+
+5. Write a program to print the first N odd natural numbers in reverse order.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i,n;
+    printf("enter how many first odd natural number in reverse order you want to print:");
+    scanf("%d",&n);
+    i=n;
+    while(i>0){
+        if(i%2!=0){
+            printf("%d\n",i);
+        }
+        i-=1;
+    }
+    getch();
+}
+
+
+6. Write a program to print the first N even natural numbers.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i=1,n;
+    printf("enter how many first even natural numbers you want to print:");
+    scanf("%d",&n);
+    while(i<=n){
+        if(i%2==0){
+            printf("%d\n",i);
+        }
+        i+=1;
+    }
+    getch();
+}
+
+
+7. Write a program to print the first N even natural numbers in reverse order.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i,n;
+    printf("enter how many first even natural in reverse order you want to print:");
+    scanf("%d",&n);
+    i=n;
+    while(i>0){
+        if(i%2==0){
+            printf("%d\n",i);
+        }
+        i-=1;
+    }
+    getch();
+}
+
+8. Write a program to print squares of the first N natural numbers.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i=1,n;
+    printf("enter how many squares of natural numbers you want to print:");
+    scanf("%d",&n);
+    while(i<=n){
+        printf("square of %d is=%d\n",i,i*i);
+        i+=1;
+    }
+    getch();
+}
+
+
+9. Write a program to print cubes of the first N natural numbers.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i=1,n;
+    printf("enter how many cubes of natural numbers you want to print:");
+    scanf("%d",&n);
+    while(i<=n){
+        printf("cube of %d is=%d\n",i,i*i*i);
+        i+=1;
+    }
+    getch();
+}
+
+10. Write a program to print a table of N.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i=1,n;
+    printf("enter a number whose table you want to print:");
+    scanf("%d",&n);
+    while(i<=10){
+        printf("%dX%d=%d\n",n,i,i*n);
+        i+=1;
+    }
+    getch();
+}
+
+
+
+
+
+
+
+
+
+
